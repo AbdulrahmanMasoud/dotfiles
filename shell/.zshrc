@@ -15,7 +15,16 @@ DEFAULT_USER=`whoami`
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git laravel4 laravel5 composer macos vagrant)
+plugins=(
+	git
+	composer
+	macos
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+	fast-syntax-highlighting
+	zsh-autocomplete
+	laravel
+	)
 
 source $ZSH/oh-my-zsh.sh
 

@@ -81,3 +81,20 @@ alias touchbar="killall ControlStrip"
 
 alias php-log="open ~/.config/valet/Log/php-fpm.log"
 alias nginx-log="open ~/.config/valet/Log/nginx-error.log"
+
+#------------------------ My custom aliases ------------------------#
+# Permission aliases
+alias s777='sudo chmod -R 777 .'
+
+# Magento aliases
+alias mup="bin/magento setup:upgrade"
+alias mfc="bin/magento cache:flush"
+alias min='bin/magento indexer:reindex'
+alias mdeploy='bin/magento setup:static-content:deploy -f'
+alias mdi='bin/magento setup:di:compile'
+
+# Git aliases
+alias gplo="git pull origin"
+alias gpuo="git push -u origin"
+alias gc="git checkout"
+alias gcb="git checkout -b"
